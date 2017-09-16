@@ -2,20 +2,31 @@
   <v-layout column>
     <v-flex xs6 offset-xs3>
       <panel title="Songs">
-        <h3>YO YO YO YO</h3>
-        <p>
-          Hello there I am a paragraph
-        </p>
+        <div v-for="song in songs" :key="song.id">
+          {{song.title}} -
+          {{song.artist}} -
+          {{song.album}}
+        </div>
       </panel>
     </v-flex>
   </v-layout>
 </template>
 
 <script>
+import SongsService from '@/services/SongsService'
 import Panel from '@/components/Panel'
 export default {
   components: {
     Panel
+  },
+  data () {
+    return {
+      songs: null
+    }
+  },
+  async mounted () {
+    // do a request to the backend for all of the songs
+    this.songs = (await SongsService.index()).data
   }
 }
 </script>
