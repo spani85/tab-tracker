@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"V",
+				"Vuex"
+			],
+			[
+				"jwt",
+				"jwtSecret"
+			],
+			[
+				"user",
+				"userJson"
+			],
+			[
 				"Vue",
 				"Vuetify"
 			],
@@ -28,10 +40,10 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "client/src/components/Header.vue",
 			"settings":
 			{
-				"buffer_size": 104,
+				"buffer_size": 666,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -79,32 +91,39 @@
 	"expanded_folders":
 	[
 		"/home/spani85/Progetti/VueJS/tab-tracker",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/router",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/src",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/config",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/policies"
 	],
 	"file_history":
 	[
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/store/store.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Login.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/main.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Register.vue",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/app.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/routes.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers/AuthenticationController.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/policies/AuthenticationControllerPolicy.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/User.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services/AuthenticationService.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/index.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/config/config.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/App.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/app.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/config/config.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/User.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers/AuthenticationController.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/routes.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services/AuthenticationService.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/router/index.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/.gitignore",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Header.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/policies/AuthenticationControllerPolicy.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/index.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services/Api.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/tab-tracker.sublime-project",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Hello.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/package.json",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/package.json",
-		"/home/spani85/Progetti/VueJS/tab-tracker/.gitignore",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/.gitignore",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/app.js",
 		"/home/spani85/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings"
@@ -125,6 +144,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Token",
+			"token",
+			"response",
+			"},\n",
+			"Register",
 			"button",
 			"req",
 			"AuthenticationController",
@@ -152,24 +176,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
+					"file": "client/src/components/Header.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 104,
+						"buffer_size": 666,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								104,
-								104
+								430,
+								430
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -262,7 +288,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 220.0,
+	"side_bar_width": 253.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
