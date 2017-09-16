@@ -68,7 +68,7 @@
 
       <v-alert error value=true v-if="error" v-html="error" class="ml-2"></v-alert>
 
-      <v-btn class="cyan" dark @click="create">Create Song</v-btn>
+      <v-btn class="cyan" dark @click="save">Save</v-btn>
     </v-flex>
   </v-layout>
 </template>
@@ -95,7 +95,7 @@ export default {
     }
   },
   methods: {
-    async create () {
+    async save () {
       this.error = null
       const areAllFieldsFilledIn = Object
         .keys(this.song)
@@ -106,15 +106,24 @@ export default {
         return
       }
 
+      const songId = this.$store.state.route.params.songId
+
       try {
-        await SongsService.post(this.song)
+        await SongsService.put(this.song)
         this.$router.push({
-          name: 'songs'
+          name: 'song',
+          params: {
+            songId: songId
+          }
         })
       } catch (err) {
         console.log(err)
       }
     }
+  },
+  async mounted () {
+    const songId = this.$store.state.route.params.songId
+    this.song = (await SongsService.show(songId)).data
   }
 }
 </script>
