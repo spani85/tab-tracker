@@ -31,11 +31,7 @@
 
               <v-btn
                 dark
-                @click="navigateTo({name: 'song',
-                  params: {
-                    songId: song.id
-                  }
-                })"
+                to="/song/:song.id"
                 class="cyan">
                 View
               </v-btn>
@@ -61,11 +57,6 @@ export default {
   data () {
     return {
       songs: null
-    }
-  },
-  methods: {
-    navigateTo (route) {
-      this.$router.push(route)
     }
   },
   async mounted () {

@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"ar",
+				"areAllFieldsFilledIn"
+			],
+			[
+				"Son",
+				"SongService"
+			],
+			[
+				"al",
+				"albumImageUrl"
+			],
+			[
+				"a",
+				"album"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"S",
+				"SongsService"
+			],
+			[
 				"V",
 				"Vuex"
 			],
@@ -39,15 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "client/src/components/Header.vue",
-			"settings":
-			{
-				"buffer_size": 666,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -94,7 +109,7 @@
 		"/home/spani85/Progetti/VueJS/tab-tracker/client",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/router",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/src",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/config",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers",
@@ -103,34 +118,44 @@
 	],
 	"file_history":
 	[
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/store/store.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Login.vue",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/main.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Register.vue",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/App.vue",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/app.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/config/config.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/User.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers/AuthenticationController.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/routes.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services/AuthenticationService.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/ViewSong.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/router/index.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/.gitignore",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Songs.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Panel.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Login.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/CreateSong.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Header.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services/SongsService.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/Song.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/index.html",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/README.md",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/app.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers/AuthenticationController.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers/SongsController.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/routes.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/User.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services/AuthenticationService.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Register.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/.gitignore",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Blank.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/package.json",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/store/store.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/main.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/App.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/config/config.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/policies/AuthenticationControllerPolicy.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/index.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services/Api.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/tab-tracker.sublime-project",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Hello.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/package.json",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/package.json",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/.gitignore",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/app.js",
 		"/home/spani85/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -144,6 +169,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ViewSong",
+			"CreateSong",
+			"title",
+			"span",
+			"text",
+			"SongService",
+			"v-model",
+			"v-model=",
+			"v",
+			"title",
+			"Title",
+			"title",
+			"Title",
+			"title",
+			"Title",
+			"email",
+			":",
+			"tab",
+			"lyrics",
+			"youtubeId",
+			"albumImageUrl",
+			"album",
+			"genre",
+			"artist",
+			":",
+			"post",
+			"400",
+			"song",
+			"lyrics",
+			"youtubeId",
+			"title",
+			"User",
+			"title",
+			"slot",
 			"Token",
 			"token",
 			"response",
@@ -171,39 +230,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "client/src/components/Header.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 666,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								430,
-								430
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -255,6 +283,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"songs",
+				"client/src/components/Songs.vue"
+			],
 			[
 				"rout",
 				"server/src/routes.js"
