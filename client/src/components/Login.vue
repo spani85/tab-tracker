@@ -45,6 +45,9 @@ export default {
         this.error = null
         this.email = ''
         this.password = ''
+        this.$router.push({
+          name: 'songs'
+        })
       } catch (error) {
         this.error = error.response.data.error
       }

@@ -6,10 +6,6 @@
 
     <!-- TODO: implement me -->
     <v-toolbar-items>
-      <v-btn 
-        flat dark to="/">
-        Home
-      </v-btn>
       <v-btn flat dark to="/songs">
         Browse
       </v-btn>
@@ -42,7 +38,7 @@ export default {
       this.$store.dispatch('setUser', null)
       // TODO
       this.$router.push({
-        name: 'root'
+        name: 'songs'
       })
     }
   }
