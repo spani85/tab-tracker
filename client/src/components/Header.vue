@@ -1,6 +1,6 @@
 <template>
   <v-toolbar fixed class="cyan" dark>
-    <v-toolbar-title class="mr-4" to="/">
+    <v-toolbar-title class="mr-4">
       TabTracker
     </v-toolbar-title>
 
