@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"book",
+				"bookmark"
+			],
+			[
+				"is",
+				"isUserLoggedIn"
+			],
+			[
+				"Book",
+				"BookmarksService"
+			],
+			[
+				"unboo",
+				"unbookmark"
+			],
+			[
+				"set",
+				"setAsBookmark"
+			],
+			[
+				"model",
+				"modelName"
+			],
+			[
+				"mode",
+				"modelName"
+			],
+			[
 				"Son",
 				"SongsSearchPanel"
 			],
@@ -68,48 +96,54 @@
 	"buffers":
 	[
 		{
-			"file": "client/src/components/Songs/SongsSearchPanel.vue",
+			"file": "client/src/components/ViewSong/SongMetadata.vue",
 			"settings":
 			{
-				"buffer_size": 664,
+				"buffer_size": 2240,
 				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "SongsSearchPanel.vue"
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/src/models/Bookmark.js",
+			"settings":
+			{
+				"buffer_size": 238,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/src/services/BookmarksService.js",
+			"settings":
+			{
+				"buffer_size": 294,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/src/routes.js",
+			"settings":
+			{
+				"buffer_size": 894,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/src/controllers/BookmarksController.js",
+			"settings":
+			{
+				"buffer_size": 1478,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "server/src/controllers/SongsController.js",
 			"settings":
 			{
-				"buffer_size": 1522,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/src/components/Songs/SongsPanel.vue",
-			"settings":
-			{
-				"buffer_size": 1503,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/src/services/SongsService.js",
-			"settings":
-			{
-				"buffer_size": 350,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/src/components/Songs/Index.vue",
-			"settings":
-			{
-				"buffer_size": 573,
-				"encoding": "UTF-8",
+				"buffer_size": 1516,
 				"line_ending": "Unix"
 			}
 		}
@@ -127,14 +161,14 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: Install Package"
+				"Package Control: Remove Package"
 			],
 			[
 				"instal",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 485.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -162,51 +196,62 @@
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Songs",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/ViewSong",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/globals",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/router",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/store",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/static",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/seed",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/src",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers"
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/config",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/policies"
 	],
 	"file_history":
 	[
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/store/store.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers/BookmarksController.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/routes.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/router/index.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/ViewSong/Index.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/seed/index.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/package.json",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers/SongsController.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/index.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/seed/bookmarks.json",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/Bookmark.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/Song.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/User.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/seed/users.json",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/seed/songs.json",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/config/config.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/app.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Register.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Login.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Header.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Songs/Index.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services/SongsService.js",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Songs/SongsPanel.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Songs/SongsSearchPanel.vue",
+		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/ViewSong/Index.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/CreateSong.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/ViewSong/SongMetadata.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/ViewSong/YouTube.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/ViewSong/Lyrics.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/ViewSong/Tab.vue",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Register.vue",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Login.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/EditSong.vue",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Songs/SongsPanel.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/main.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/App.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Blank.vue",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers/SongsController.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Songs.vue",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/routes.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/config/index.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services/SongsService.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/ViewSong.vue",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Panel.vue",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Header.vue",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/Song.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/index.html",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/README.md",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/app.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/controllers/AuthenticationController.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/User.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services/AuthenticationService.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/.gitignore",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/package.json",
-		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/store/store.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/config/config.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/policies/AuthenticationControllerPolicy.js",
-		"/home/spani85/Progetti/VueJS/tab-tracker/server/src/models/index.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/services/Api.js",
 		"/home/spani85/Progetti/VueJS/tab-tracker/tab-tracker.sublime-project",
 		"/home/spani85/Progetti/VueJS/tab-tracker/client/src/components/Hello.vue",
@@ -232,6 +277,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"this.isBookmarked",
+			"query",
+			"bookmark",
+			"bookmarks",
+			"SongsController",
+			"UserId",
+			"SongId",
+			"song",
+			"songs",
+			"User",
+			"Song",
+			"require",
+			"}",
+			"updatedAt",
+			"createdAt",
+			"\"id\"",
+			"User",
+			"user",
+			" =>",
+			"users",
+			"songs",
+			"root",
 			"panel",
 			"}\n",
 			"Header",
@@ -311,28 +378,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "client/src/components/Songs/SongsSearchPanel.vue",
+					"file": "client/src/components/ViewSong/SongMetadata.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 664,
+						"buffer_size": 2240,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								210,
-								210
+								1267,
+								1267
 							]
 						],
 						"settings":
 						{
-							"auto_name": "SongsSearchPanel.vue",
-							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage"
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 860.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -340,26 +408,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "server/src/controllers/SongsController.js",
+					"file": "server/src/models/Bookmark.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1522,
+						"buffer_size": 238,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								418,
-								418
+								93,
+								93
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -370,49 +436,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "client/src/components/Songs/SongsPanel.vue",
+					"file": "client/src/services/BookmarksService.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1503,
+						"buffer_size": 294,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								972,
-								972
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 660.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "client/src/services/SongsService.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 350,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								140,
-								140
+								206,
+								206
 							]
 						],
 						"settings":
@@ -425,37 +461,97 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "client/src/components/Songs/Index.vue",
+					"buffer": 3,
+					"file": "server/src/routes.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 573,
+						"buffer_size": 894,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								261,
-								261
+								890,
+								890
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "server/src/controllers/BookmarksController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								920,
+								920
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "server/src/controllers/SongsController.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1047,
+								1047
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -509,6 +605,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"store.js",
+				"client/src/store/store.js"
+			],
 			[
 				"bla",
 				"client/src/components/Blank.vue"
